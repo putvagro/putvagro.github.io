@@ -261,6 +261,21 @@ main {
     font-size: 2rem;
   }
 }
+/* Стили для заголовков секций */
+.section h2 {
+  color: #90caf9; /* голубой цвет как в навигации */
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(144, 202, 249, 0.3); /* необязательная декоративная линия */
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Для тестов и контактов можно добавить */
+.tests h2,
+.contacts h2 {
+  color: #90caf9;
+}
 /* Обновленные стили для мобильной шапки - вертикальное меню */
 @media (max-width: 480px) {
   .header {
